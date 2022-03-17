@@ -1,6 +1,6 @@
 {
-  "current": "/home/runner/work/PackageDistro/PackageDistro/data/reports/manual/2022-03-17-18:31:03-2ab91d3/test-status.json",
-  "last": "/home/runner/work/PackageDistro/PackageDistro/data/reports/manual/2ab91d3-2022-03-17-18:31:03/test-status.json",
+  "current": "reports/manual/2022-03-17-18:31:03-2ab91d3/test-status.json",
+  "last": "reports/manual/2022-03-17-18:31:03-2ab91d3/test-status.json",
   "total": 3,
   "failure": 2,
   "success": 1,
