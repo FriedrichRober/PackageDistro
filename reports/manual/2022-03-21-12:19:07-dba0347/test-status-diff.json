@@ -1,0 +1,16 @@
+{
+  "current": "manual/2022-03-21-12:19:07-dba0347",
+  "last": "manual/2022-03-21-12:17:34-d31b872",
+  "total": 3,
+  "failure": 2,
+  "success": 1,
+  "skipped": 0,
+  "new": 0,
+  "removed": 0,
+  "failure_changed": 0,
+  "success_changed": 0,
+  "skipped_changed": 0,
+  "failure_same": 2,
+  "success_same": 1,
+  "skipped_same": 0
+}
