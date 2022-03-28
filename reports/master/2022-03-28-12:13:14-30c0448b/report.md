@@ -8,14 +8,16 @@
 
 In total, 3 packages were tested, out of which 1 succeeded, 2 failed and 0 were skipped.
 
-:bangbang: 1 packages are failing only on current version. :bangbang:## :exclamation: Packages now failing
+:bangbang: **Detected package(s) failing only on current version.** :bangbang:
+
+## :exclamation: :exclamation: Packages now failing
 
 1 package(s) failed tests only on the current version.<details> <summary>Click to show package(s)!</summary>
 
 - agt 0.2 vs agt 0.2 (success) <br>
 </details>
 
-## :heavy_check_mark: Packages now succeeding
+## :heavy_check_mark: :heavy_check_mark: Packages now succeeding
 
 1 package(s) succeeded tests only on the current version.<details> <summary>Click to show package(s)!</summary>
 
