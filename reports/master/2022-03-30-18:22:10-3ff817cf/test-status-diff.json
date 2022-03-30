@@ -1,0 +1,16 @@
+{
+  "current": "master/2022-03-30-18:22:10-3ff817cf",
+  "last": "NULL",
+  "total": 152,
+  "failure": 18,
+  "success": 113,
+  "skipped": 21,
+  "new": 152,
+  "removed": 0,
+  "failure_changed": 0,
+  "success_changed": 0,
+  "skipped_changed": 0,
+  "failure_same": 0,
+  "success_same": 0,
+  "skipped_same": 0
+}
