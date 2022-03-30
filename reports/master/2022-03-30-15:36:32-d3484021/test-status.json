@@ -1,0 +1,68 @@
+{
+  "repo": "https://github.com/FriedrichRober/PackageDistro",
+  "workflow": "https://github.com/FriedrichRober/PackageDistro/actions/runs/2065749265",
+  "hash": "d348402121d5efeee43e6ee328e7af11a4878a7f",
+  "date": "2022-03-30 15:36:32",
+  "id": "master/2022-03-30-15:36:32-d3484021",
+  "pkgs": {
+    "ace": {
+      "status_default": "success",
+      "status_only_needed": "success",
+      "version": "5.4",
+      "archive_url": "https://github.com/gap-packages/ace/releases/download/v5.4/ace-5.4",
+      "archive_sha256": "7dc9ca0d1807511e9e931b471809db2fe9bc7956153f62dd60f1798c6a615a87",
+      "status": "success"
+    },
+    "aclib": {
+      "status_default": "success",
+      "status_only_needed": "success",
+      "version": "1.3.2",
+      "archive_url": "https://github.com/gap-packages/aclib/releases/download/v1.3.2/aclib-1.3.2",
+      "archive_sha256": "f672d0aee19f22b411352835a4730a6f88eecad7d79d8452b273f381b03e1a7b",
+      "status": "success"
+    },
+    "agt": {
+      "status_default": "success",
+      "status_only_needed": "success",
+      "version": "0.2",
+      "archive_url": "https://github.com/gap-packages/AGT/releases/download/v0.2/AGT-0.2",
+      "archive_sha256": "d7d5564328eceadb2420524fdb7d4c8f1261e95490950858f31dcca89b8675ae",
+      "status": "success"
+    },
+    "alnuth": {
+      "status_default": "success",
+      "status_only_needed": "success",
+      "version": "3.2.0",
+      "archive_url": "https://github.com/gap-packages/alnuth/releases/download/v3.2.0/alnuth-3.2.0",
+      "archive_sha256": "e33e20ed0bb9ad9ddb2d8e2f71b57029ef84ddc7b5d61329a8923696bb2535b6",
+      "status": "success"
+    },
+    "anupq": {
+      "status_default": "success",
+      "status_only_needed": "success",
+      "version": "3.2.6",
+      "archive_url": "https://github.com/gap-packages/anupq/releases/download/v3.2.6/anupq-3.2.6",
+      "archive_sha256": "9df9f662c4df3b32916c61e0becd2d04162b75150368b2dadc50f1c432ca8579",
+      "status": "success"
+    },
+    "atlasrep": {
+      "status_default": "success",
+      "status_only_needed": "success",
+      "version": "2.1.1",
+      "archive_url": "https://www.math.rwth-aachen.de/~Thomas.Breuer/atlasrep/atlasrep-2.1.1",
+      "archive_sha256": "bae954ef15bedcc7c62e4f7ef1fe97b15f15a7b0ea0a537ce2df2364acbffa01",
+      "status": "success"
+    },
+    "4ti2interface": {
+      "status_skipped": "skipped",
+      "version": "2022.03-01",
+      "archive_url": "https://github.com/homalg-project/homalg_project/releases/download/4ti2Interface-2022.03-01/4ti2Interface-2022.03-01",
+      "archive_sha256": "28df7531b7727562d511f0719f81f3cea9d3c3bed11c566784fcbfa534b2d4e8",
+      "status": "skipped"
+    }
+  },
+  "total": 7,
+  "success": 6,
+  "failure": 0,
+  "skipped": 1
+}
