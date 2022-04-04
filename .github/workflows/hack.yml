@@ -1,0 +1,47 @@
+
+name: "HACK"
+
+on:
+  push:
+
+jobs:
+  somejob:
+    name: "Some job"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        id: hello
+        run: echo 'Hello'
+      - name: Print World
+        run: echo 'World'
+
+  nextjob:
+    runs-on: ubuntu-latest
+    name: "Next job"
+    needs: somejob
+    steps:
+      - uses: octokit/request-action@v2.x
+        id: get_jobs
+        with:
+          route: GET /repos/${{ github.repository }}/actions/runs/${{ github.run_id}}/jobs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Print job name
+        id: name
+        run: |
+          DATA=${{ toJSON(steps.get_jobs.outputs.data) }}
+          echo -e $DATA > _tmp.json
+          JOB_ID=${{ github.job }}
+          echo $JOB_ID
+          VAR="github.jobs.${JOB_ID}.name"
+          echo "::set-output name=var::${VAR}"
+
+      - name: Print job id (integer)
+        id: id
+        env:
+          VAR: ${{steps.name.outputs.var}}
+        run: |
+          NAME=${{ github.jobs. }}
+          echo $NAME
+          ID=$(jq --arg name "$NAME" -r '.jobs | .[] | select(.name == "$name") | .id' _tmp.json);
+          echo $ID
