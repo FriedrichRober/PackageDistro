@@ -1,0 +1,16 @@
+{
+  "current": "4.11.1/2023-02-13-03:18:16-1f958c20",
+  "last": "4.11.1/2023-02-12-03:16:59-1f958c20",
+  "total": 151,
+  "failure": 16,
+  "success": 114,
+  "skipped": 21,
+  "new": 0,
+  "removed": 1,
+  "failure_changed": 0,
+  "success_changed": 0,
+  "skipped_changed": 0,
+  "failure_same": 16,
+  "success_same": 114,
+  "skipped_same": 21
+}
